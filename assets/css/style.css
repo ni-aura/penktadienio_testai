@@ -1,0 +1,252 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section {
+  margin-top: 50px;
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.svg-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+  width: 220px;
+}
+
+.number-1,
+.number-2,
+.number-3,
+.number-4 {
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.number-1 {
+  border: 3px solid #70c0c9;
+  color: #70c0c9;
+}
+
+.number-2 {
+  border: 3px solid #4074bd;
+  color: #4074bd;
+}
+
+.number-3 {
+  border: 3px solid #e05e46;
+  color: #e05e46;
+}
+
+.number-4 {
+  border: 3px solid #919191;
+  color: #919191;
+}
+
+img {
+  max-width: 100px;
+  max-width: 100px;
+}
+
+.svg-client,
+.svg-messaging,
+.svg-sales,
+.svg-compaign {
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(262deg) brightness(108%) contrast(103%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(262deg) brightness(108%) contrast(103%);
+}
+
+.card-client,
+.card-messaging,
+.card-sales,
+.card-compaign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.card-heading {
+  font-size: 24px;
+  color: #e36b5b;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

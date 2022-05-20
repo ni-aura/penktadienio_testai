@@ -1,0 +1,85 @@
+.section {
+	margin-top: 50px;
+	padding: 0 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.svg-conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 220px;
+	width: 220px;
+}
+
+.number-1,
+.number-2,
+.number-3,
+.number-4 {
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+}
+.number-1 {
+	border: 3px solid rgba(112, 192, 201, 255);
+	color: rgba(112, 192, 201, 255);
+}
+
+.number-2 {
+	border: 3px solid rgba(64, 116, 189, 255);
+	color: rgba(64, 116, 189, 255);
+}
+
+.number-3 {
+	border: 3px solid rgba(224, 94, 70, 255);
+	color: rgba(224, 94, 70, 255);
+}
+
+.number-4 {
+	border: 3px solid rgba(145, 145, 145, 255);
+	color: rgba(145, 145, 145, 255);
+}
+
+img {
+	max-width: 100px;
+	max-width: 100px;
+}
+
+.svg-client,
+.svg-messaging,
+.svg-sales,
+.svg-compaign {
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(262deg) brightness(108%) contrast(103%);
+}
+
+.card-client,
+.card-messaging,
+.card-sales,
+.card-compaign {
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.card-heading {
+	font-size: 24px;
+	color: rgba(227, 107, 91, 255);
+	text-align: center;
+}
+
+.card-text {
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
